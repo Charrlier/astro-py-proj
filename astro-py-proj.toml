@@ -1,6 +1,14 @@
-mkdir src tests docs .github .github/workflows
-touch pyproject.toml requirements.txt README.md
-touch src/my_module.py
-touch tests/test_my_module.py
-touch docs/index.rst
-touch .github/workflows/test.yml
+[project]
+name = "my_python_project"
+version = "0.1.0"
+description = "A sample Python project with CLI and GUI"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[project.dependencies]
+requests = "^2.26.0"
+click = "^8.0.3"
+matplotlib = "^3.4.3"
+
+[build-system]
+requires = ["setuptools", "wheel"]
