@@ -1,0 +1,6 @@
+mkdir src tests docs .github .github/workflows
+touch pyproject.toml requirements.txt README.md
+touch src/my_module.py
+touch tests/test_my_module.py
+touch docs/index.rst
+touch .github/workflows/test.yml
